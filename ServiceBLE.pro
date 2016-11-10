@@ -16,3 +16,7 @@ SOURCES += main.cpp \
 HEADERS += \
     Service/CServiceRpmsgInterface.h \
     CServerBLE.h
+
+target.path = /usr/bin
+
+INSTALLS += target

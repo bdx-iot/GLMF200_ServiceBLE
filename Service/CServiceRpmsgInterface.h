@@ -5,7 +5,7 @@
 #include <QDBusInterface>
 #include <QDBusReply>
 
-#define SERVICE_NAME        "amplitude.systemes.service.rpmsg"
+#define SERVICE_NAME        "org.opensilicium.service.rpmsg"
 #define PROPERTY_PATH       "/"
 
 class CServiceRpmsgInterface
